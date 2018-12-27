@@ -9,11 +9,16 @@ virtualenv venv -p python3
 source venv/bin/activate
 ```
 ```bash
-https://github.com/MarianMandziuk/simple-app.git
+git clone https://github.com/MarianMandziuk/simple-app.git
 ```
-
+```bash
+cd simple-app
+```
 ```bash
 pip install -r requirements.txt
+```
+```bash
+cd simpleapp
 ```
 ```bash
 python manage.py runserver
