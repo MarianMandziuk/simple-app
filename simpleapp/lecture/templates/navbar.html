@@ -1,0 +1,14 @@
+<ul class="navbar-nav mr-auto">
+  <li class="nav-item {% if active_nav == 'nav1' %} active{% endif %}">
+    <a class="nav-link" href="{% url 'lecture:index' %}">Home <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item {% if active_nav == 'nav2' %} active{% endif %}">
+    <a class="nav-link" href="{% url 'lecture:dark_matter' %}">Dark matter</a>
+  </li>
+  <li class="nav-item {% if active_nav == 'nav3' %} active{% endif %}">
+    <a class="nav-link" href="{% url 'lecture:planet_death' %}">Planet death</a>
+  </li>
+  <li class="nav-item {% if active_nav == 'nav4' %} active{% endif %}">
+    <a class="nav-link" href="{% url 'lecture:quantum_mechanics' %}">Quantum mechanics</a>
+  </li>
+</ul>

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block nav %}
+    {% include "navbar.html" with active_nav='nav4' %}
+{% endblock %}
+
+{% block content %}
+    <h2>Quantum mechanics with Svyatoslav Vakarchuk</h2>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/kK2PgTF6LFE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+{% endblock %}

@@ -25,7 +25,7 @@ SECRET_KEY = 'h2$v8fi@2p*2vuq421oh^_c+7m26mu$p3l_qpfxu*7rsp(!y+z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'lecture.apps.LectureConfig',
 ]
 
 MIDDLEWARE = [
